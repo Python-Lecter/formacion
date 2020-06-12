@@ -1,0 +1,2 @@
+edad = input()
+print(edad)
