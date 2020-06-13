@@ -24,7 +24,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8731d89-333d-4e58-acc6-ed08c10a7449" name="Default Changelist" comment="Commit Inicial de segundo Tutorial donde la salida es un log, se tratara de cambiar por un JSON:&#10;&#10;cat ~/.usagelogs/2020_06_12_19_50_43.txt &#10;------------------------------------------------------------&#10;vlc&#10;0:13:00 (67%)&#10;------------------------------------------------------------&#10;   0:13:00 (67%)    python.mp4 - VLC media player&#10;------------------------------------------------------------&#10;gnome-terminal&#10;0:05:40 (29%)&#10;------------------------------------------------------------&#10;   0:05:40 (29%)    cross@ubuntucrossD: ~&#10;------------------------------------------------------------&#10;chrome&#10;0:00:45 (4%)&#10;------------------------------------------------------------&#10;   0:00:45 (4%)     python - How can I make this window &amp; application time- track script produce sorted output? - Ask Ubuntu - Chromium&#10;------------------------------------------------------------&#10;java&#10;0:00:05 (0%)&#10;------------------------------------------------------------&#10;   0:00:05 (0%)     formacion – LinuxInfo.py&#10;&#10;============================================================&#10;started: 2020-06-12 19:50:43&#9;updated: 2020-06-12 20:10:21&#10;============================================================">
+    <list default="true" id="c8731d89-333d-4e58-acc6-ed08c10a7449" name="Default Changelist" comment="Entendiendo el While donde se agrega el nombre de app a la lista solo si es nueva entrada">
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catch.py" beforeDir="false" afterPath="$PROJECT_DIR$/catch.py" afterDir="false" />
     </list>
@@ -55,7 +56,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/linux.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -148,8 +149,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="formacion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.LinuxInfo" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.linux" />
       <item itemvalue="Python.currentWindows" />
       <item itemvalue="Python.fileHandling" />
@@ -229,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592016802042</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Entendiendo el While donde se agrega el nombre de app a la lista solo si es nueva entrada">
+      <created>1592020836636</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1592020836636</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,25 +287,26 @@
     <MESSAGE value="asd commit" />
     <MESSAGE value="Commit dejando de un lado el primer tutorial dado que esta diseñado para windows y MAC los metodos para Linux requieren solventar los problemas de memoria para que funcione el bucle while" />
     <MESSAGE value="Commit Inicial de segundo Tutorial donde la salida es un log, se tratara de cambiar por un JSON:&#10;&#10;cat ~/.usagelogs/2020_06_12_19_50_43.txt &#10;------------------------------------------------------------&#10;vlc&#10;0:13:00 (67%)&#10;------------------------------------------------------------&#10;   0:13:00 (67%)    python.mp4 - VLC media player&#10;------------------------------------------------------------&#10;gnome-terminal&#10;0:05:40 (29%)&#10;------------------------------------------------------------&#10;   0:05:40 (29%)    cross@ubuntucrossD: ~&#10;------------------------------------------------------------&#10;chrome&#10;0:00:45 (4%)&#10;------------------------------------------------------------&#10;   0:00:45 (4%)     python - How can I make this window &amp; application time- track script produce sorted output? - Ask Ubuntu - Chromium&#10;------------------------------------------------------------&#10;java&#10;0:00:05 (0%)&#10;------------------------------------------------------------&#10;   0:00:05 (0%)     formacion – LinuxInfo.py&#10;&#10;============================================================&#10;started: 2020-06-12 19:50:43&#9;updated: 2020-06-12 20:10:21&#10;============================================================" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Inicial de segundo Tutorial donde la salida es un log, se tratara de cambiar por un JSON:&#10;&#10;cat ~/.usagelogs/2020_06_12_19_50_43.txt &#10;------------------------------------------------------------&#10;vlc&#10;0:13:00 (67%)&#10;------------------------------------------------------------&#10;   0:13:00 (67%)    python.mp4 - VLC media player&#10;------------------------------------------------------------&#10;gnome-terminal&#10;0:05:40 (29%)&#10;------------------------------------------------------------&#10;   0:05:40 (29%)    cross@ubuntucrossD: ~&#10;------------------------------------------------------------&#10;chrome&#10;0:00:45 (4%)&#10;------------------------------------------------------------&#10;   0:00:45 (4%)     python - How can I make this window &amp; application time- track script produce sorted output? - Ask Ubuntu - Chromium&#10;------------------------------------------------------------&#10;java&#10;0:00:05 (0%)&#10;------------------------------------------------------------&#10;   0:00:05 (0%)     formacion – LinuxInfo.py&#10;&#10;============================================================&#10;started: 2020-06-12 19:50:43&#9;updated: 2020-06-12 20:10:21&#10;============================================================" />
+    <MESSAGE value="Entendiendo el While donde se agrega el nombre de app a la lista solo si es nueva entrada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entendiendo el While donde se agrega el nombre de app a la lista solo si es nueva entrada" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="145" width="732" height="644" key="#Inspections" timestamp="1592000919947">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
     <state x="385" y="145" width="732" height="644" key="#Inspections/72.27.1368.873@72.27.1368.873" timestamp="1592000919947" />
-    <state x="214" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592008203250">
+    <state x="214" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592048102758">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state x="214" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1368.873@72.27.1368.873" timestamp="1592008203250" />
+    <state x="214" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1368.873@72.27.1368.873" timestamp="1592048102758" />
     <state x="172" y="127" width="1168" height="673" key="DiffContextDialog" timestamp="1591977304300">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
     <state x="172" y="127" width="1168" height="673" key="DiffContextDialog/72.27.1368.873@72.27.1368.873" timestamp="1591977304300" />
-    <state x="539" y="221" width="447" height="498" key="FileChooserDialogImpl" timestamp="1592008202159">
+    <state x="539" y="221" width="447" height="498" key="FileChooserDialogImpl" timestamp="1592048101625">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state x="539" y="221" width="447" height="498" key="FileChooserDialogImpl/72.27.1368.873@72.27.1368.873" timestamp="1592008202159" />
+    <state x="539" y="221" width="447" height="498" key="FileChooserDialogImpl/72.27.1368.873@72.27.1368.873" timestamp="1592048101625" />
     <state x="547" y="384" width="417" height="165" key="Github.CreateGistDialog" timestamp="1591976090264">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
@@ -288,22 +319,22 @@
       <screen x="72" y="27" width="1368" height="873" />
     </state>
     <state x="486" y="150" width="530" height="633" key="Github.UntrackedFilesDialog/72.27.1368.873@72.27.1368.873" timestamp="1591977065267" />
-    <state width="1345" height="172" key="GridCell.Tab.0.bottom" timestamp="1592014368691">
+    <state width="1345" height="172" key="GridCell.Tab.0.bottom" timestamp="1592056596213">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state width="1345" height="172" key="GridCell.Tab.0.bottom/72.27.1368.873@72.27.1368.873" timestamp="1592014368691" />
-    <state width="1345" height="172" key="GridCell.Tab.0.center" timestamp="1592014368691">
+    <state width="1345" height="172" key="GridCell.Tab.0.bottom/72.27.1368.873@72.27.1368.873" timestamp="1592056596213" />
+    <state width="1345" height="172" key="GridCell.Tab.0.center" timestamp="1592056596211">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state width="1345" height="172" key="GridCell.Tab.0.center/72.27.1368.873@72.27.1368.873" timestamp="1592014368691" />
-    <state width="1345" height="172" key="GridCell.Tab.0.left" timestamp="1592014368690">
+    <state width="1345" height="172" key="GridCell.Tab.0.center/72.27.1368.873@72.27.1368.873" timestamp="1592056596211" />
+    <state width="1345" height="172" key="GridCell.Tab.0.left" timestamp="1592056596210">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state width="1345" height="172" key="GridCell.Tab.0.left/72.27.1368.873@72.27.1368.873" timestamp="1592014368690" />
-    <state width="1345" height="172" key="GridCell.Tab.0.right" timestamp="1592014368691">
+    <state width="1345" height="172" key="GridCell.Tab.0.left/72.27.1368.873@72.27.1368.873" timestamp="1592056596210" />
+    <state width="1345" height="172" key="GridCell.Tab.0.right" timestamp="1592056596212">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state width="1345" height="172" key="GridCell.Tab.0.right/72.27.1368.873@72.27.1368.873" timestamp="1592014368691" />
+    <state width="1345" height="172" key="GridCell.Tab.0.right/72.27.1368.873@72.27.1368.873" timestamp="1592056596212" />
     <state x="237" y="103" width="1022" height="737" key="SettingsEditor" timestamp="1592002461892">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
@@ -316,10 +347,10 @@
       <screen x="72" y="27" width="1368" height="873" />
     </state>
     <state x="623" y="378" width="324" height="264" key="VCS.EditChangelistDialog/72.27.1368.873@72.27.1368.873" timestamp="1591978265728" />
-    <state x="351" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592016961467">
+    <state x="351" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592020860769">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state x="351" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1368.873@72.27.1368.873" timestamp="1592016961467" />
+    <state x="351" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1368.873@72.27.1368.873" timestamp="1592020860769" />
     <state x="527" y="378" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591975674428">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
