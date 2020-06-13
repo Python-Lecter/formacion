@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Python-Lecter" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8731d89-333d-4e58-acc6-ed08c10a7449" name="Default Changelist" comment="Testing commit">
-      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+    <list default="true" id="c8731d89-333d-4e58-acc6-ed08c10a7449" name="Default Changelist" comment="asd commit">
+      <change afterPath="$PROJECT_DIR$/LinuxInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activities.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autotimer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currentWindows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datetimeHandling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileHandling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_WOstatement" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,34 +54,42 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dDx77zfX6fXAtH6gwPb9Zo6fY8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/linux.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.LinuxInfo">
+    <configuration name="LinuxInfo" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="formacion" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinuxInfo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -53,11 +98,75 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.test" />
-      </list>
-    </recent_temporary>
+    <configuration name="currentWindows" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="formacion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/currentWindows.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fileHandling" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="formacion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fileHandling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linux" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="formacion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linux.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.LinuxInfo" />
+      <item itemvalue="Python.linux" />
+      <item itemvalue="Python.currentWindows" />
+      <item itemvalue="Python.fileHandling" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -91,10 +200,51 @@
       <option name="project" value="LOCAL" />
       <updated>1591975781246</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Testing commit">
+      <created>1591977533356</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591977533356</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Testing commit">
+      <created>1591977543329</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591977543329</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Testing commit">
+      <created>1591977582618</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591977582618</updated>
+    </task>
+    <task id="LOCAL-00007" summary="asd commit">
+      <created>1591977607856</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591977607856</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000000" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
@@ -103,56 +253,77 @@
     <MESSAGE value="Initiall commit" />
     <MESSAGE value="Archivo de prueba" />
     <MESSAGE value="Testing commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing commit" />
+    <MESSAGE value="asd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="385" y="145" width="732" height="644" key="#Inspections" timestamp="1592000919947">
+      <screen x="72" y="27" width="1368" height="873" />
+    </state>
+    <state x="385" y="145" width="732" height="644" key="#Inspections/72.27.1368.873@72.27.1368.873" timestamp="1592000919947" />
+    <state x="214" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592008203250">
+      <screen x="72" y="27" width="1368" height="873" />
+    </state>
+    <state x="214" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1368.873@72.27.1368.873" timestamp="1592008203250" />
     <state x="172" y="127" width="1168" height="673" key="DiffContextDialog" timestamp="1591977304300">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
     <state x="172" y="127" width="1168" height="673" key="DiffContextDialog/72.27.1368.873@72.27.1368.873" timestamp="1591977304300" />
-    <state x="539" y="221" width="447" height="498" key="FileChooserDialogImpl" timestamp="1591976976502">
+    <state x="539" y="221" width="447" height="498" key="FileChooserDialogImpl" timestamp="1592008202159">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state x="539" y="221" width="447" height="498" key="FileChooserDialogImpl/72.27.1368.873@72.27.1368.873" timestamp="1591976976502" />
+    <state x="539" y="221" width="447" height="498" key="FileChooserDialogImpl/72.27.1368.873@72.27.1368.873" timestamp="1592008202159" />
     <state x="547" y="384" width="417" height="165" key="Github.CreateGistDialog" timestamp="1591976090264">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
     <state x="547" y="384" width="417" height="165" key="Github.CreateGistDialog/72.27.1368.873@72.27.1368.873" timestamp="1591976090264" />
-    <state x="609" y="363" width="294" height="207" key="Github.ShareDialog" timestamp="1591977057148">
+    <state x="609" y="363" width="294" height="207" key="Github.ShareDialog" timestamp="1591981350649">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state x="609" y="363" width="294" height="207" key="Github.ShareDialog/72.27.1368.873@72.27.1368.873" timestamp="1591977057148" />
+    <state x="609" y="363" width="294" height="207" key="Github.ShareDialog/72.27.1368.873@72.27.1368.873" timestamp="1591981350649" />
     <state x="486" y="150" width="530" height="633" key="Github.UntrackedFilesDialog" timestamp="1591977065267">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
     <state x="486" y="150" width="530" height="633" key="Github.UntrackedFilesDialog/72.27.1368.873@72.27.1368.873" timestamp="1591977065267" />
-    <state width="1345" height="216" key="GridCell.Tab.0.bottom" timestamp="1591977110932">
+    <state width="1345" height="172" key="GridCell.Tab.0.bottom" timestamp="1592014368691">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state width="1345" height="216" key="GridCell.Tab.0.bottom/72.27.1368.873@72.27.1368.873" timestamp="1591977110932" />
-    <state width="1345" height="216" key="GridCell.Tab.0.center" timestamp="1591977110932">
+    <state width="1345" height="172" key="GridCell.Tab.0.bottom/72.27.1368.873@72.27.1368.873" timestamp="1592014368691" />
+    <state width="1345" height="172" key="GridCell.Tab.0.center" timestamp="1592014368691">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state width="1345" height="216" key="GridCell.Tab.0.center/72.27.1368.873@72.27.1368.873" timestamp="1591977110932" />
-    <state width="1345" height="216" key="GridCell.Tab.0.left" timestamp="1591977110932">
+    <state width="1345" height="172" key="GridCell.Tab.0.center/72.27.1368.873@72.27.1368.873" timestamp="1592014368691" />
+    <state width="1345" height="172" key="GridCell.Tab.0.left" timestamp="1592014368690">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state width="1345" height="216" key="GridCell.Tab.0.left/72.27.1368.873@72.27.1368.873" timestamp="1591977110932" />
-    <state width="1345" height="216" key="GridCell.Tab.0.right" timestamp="1591977110932">
+    <state width="1345" height="172" key="GridCell.Tab.0.left/72.27.1368.873@72.27.1368.873" timestamp="1592014368690" />
+    <state width="1345" height="172" key="GridCell.Tab.0.right" timestamp="1592014368691">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state width="1345" height="216" key="GridCell.Tab.0.right/72.27.1368.873@72.27.1368.873" timestamp="1591977110932" />
-    <state x="245" y="98" width="1022" height="737" key="SettingsEditor" timestamp="1591977398295">
+    <state width="1345" height="172" key="GridCell.Tab.0.right/72.27.1368.873@72.27.1368.873" timestamp="1592014368691" />
+    <state x="237" y="103" width="1022" height="737" key="SettingsEditor" timestamp="1592002461892">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state x="245" y="98" width="1022" height="737" key="SettingsEditor/72.27.1368.873@72.27.1368.873" timestamp="1591977398295" />
-    <state x="623" y="378" width="256" height="178" key="VCS.EditChangelistDialog" timestamp="1591976036449">
+    <state x="237" y="103" width="1022" height="737" key="SettingsEditor/72.27.1368.873@72.27.1368.873" timestamp="1592002461892" />
+    <state x="599" y="378" width="303" height="178" key="VCS.ChangelistChooser" timestamp="1591978281262">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state x="623" y="378" width="256" height="178" key="VCS.EditChangelistDialog/72.27.1368.873@72.27.1368.873" timestamp="1591976036449" />
+    <state x="599" y="378" width="303" height="178" key="VCS.ChangelistChooser/72.27.1368.873@72.27.1368.873" timestamp="1591978281262" />
+    <state x="623" y="378" width="324" height="264" key="VCS.EditChangelistDialog" timestamp="1591978265728">
+      <screen x="72" y="27" width="1368" height="873" />
+    </state>
+    <state x="623" y="378" width="324" height="264" key="VCS.EditChangelistDialog/72.27.1368.873@72.27.1368.873" timestamp="1591978265728" />
+    <state x="351" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592016583269">
+      <screen x="72" y="27" width="1368" height="873" />
+    </state>
+    <state x="351" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1368.873@72.27.1368.873" timestamp="1592016583269" />
     <state x="527" y="378" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591975674428">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
     <state x="527" y="378" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1368.873@72.27.1368.873" timestamp="1591975674428" />
+    <state x="456" y="331" width="589" height="272" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591981965187">
+      <screen x="72" y="27" width="1368" height="873" />
+    </state>
+    <state x="456" y="331" width="589" height="272" key="git4idea.remote.GitConfigureRemotesDialog/72.27.1368.873@72.27.1368.873" timestamp="1591981965187" />
   </component>
 </project>
