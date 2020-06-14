@@ -24,10 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8731d89-333d-4e58-acc6-ed08c10a7449" name="Default Changelist" comment="continuación de la comprension del codigo, creacion de reportes en el log, se identifico que genera error el script al abrir videos app nativa de ubuntu">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catch.py" beforeDir="false" afterPath="$PROJECT_DIR$/catch.py" afterDir="false" />
-    </list>
+    <list default="true" id="c8731d89-333d-4e58-acc6-ed08c10a7449" name="Default Changelist" comment="Final de codigo para capturar actividades hechas en el ordenador" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,10 +190,10 @@
     <list>
       <item itemvalue="Python.LinuxInfo" />
       <item itemvalue="Python.catch" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.linux" />
       <item itemvalue="Python.currentWindows" />
       <item itemvalue="Python.fileHandling" />
+      <item itemvalue="Python.linux" />
+      <item itemvalue="Python.test" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -287,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592056837499</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Final de codigo para capturar actividades hechas en el ordenador">
+      <created>1592149764018</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1592149764019</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,7 +321,8 @@
     <MESSAGE value="Commit Inicial de segundo Tutorial donde la salida es un log, se tratara de cambiar por un JSON:&#10;&#10;cat ~/.usagelogs/2020_06_12_19_50_43.txt &#10;------------------------------------------------------------&#10;vlc&#10;0:13:00 (67%)&#10;------------------------------------------------------------&#10;   0:13:00 (67%)    python.mp4 - VLC media player&#10;------------------------------------------------------------&#10;gnome-terminal&#10;0:05:40 (29%)&#10;------------------------------------------------------------&#10;   0:05:40 (29%)    cross@ubuntucrossD: ~&#10;------------------------------------------------------------&#10;chrome&#10;0:00:45 (4%)&#10;------------------------------------------------------------&#10;   0:00:45 (4%)     python - How can I make this window &amp; application time- track script produce sorted output? - Ask Ubuntu - Chromium&#10;------------------------------------------------------------&#10;java&#10;0:00:05 (0%)&#10;------------------------------------------------------------&#10;   0:00:05 (0%)     formacion – LinuxInfo.py&#10;&#10;============================================================&#10;started: 2020-06-12 19:50:43&#9;updated: 2020-06-12 20:10:21&#10;============================================================" />
     <MESSAGE value="Entendiendo el While donde se agrega el nombre de app a la lista solo si es nueva entrada" />
     <MESSAGE value="continuación de la comprension del codigo, creacion de reportes en el log, se identifico que genera error el script al abrir videos app nativa de ubuntu" />
-    <option name="LAST_COMMIT_MESSAGE" value="continuación de la comprension del codigo, creacion de reportes en el log, se identifico que genera error el script al abrir videos app nativa de ubuntu" />
+    <MESSAGE value="Final de codigo para capturar actividades hechas en el ordenador" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final de codigo para capturar actividades hechas en el ordenador" />
   </component>
   <component name="WindowStateProjectService">
     <state x="385" y="145" width="732" height="644" key="#Inspections" timestamp="1592000919947">
@@ -348,22 +353,22 @@
       <screen x="72" y="27" width="1368" height="873" />
     </state>
     <state x="486" y="150" width="530" height="633" key="Github.UntrackedFilesDialog/72.27.1368.873@72.27.1368.873" timestamp="1591977065267" />
-    <state width="1345" height="172" key="GridCell.Tab.0.bottom" timestamp="1592147701774">
+    <state width="1345" height="172" key="GridCell.Tab.0.bottom" timestamp="1592149802370">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state width="1345" height="172" key="GridCell.Tab.0.bottom/72.27.1368.873@72.27.1368.873" timestamp="1592147701774" />
-    <state width="1345" height="172" key="GridCell.Tab.0.center" timestamp="1592147701773">
+    <state width="1345" height="172" key="GridCell.Tab.0.bottom/72.27.1368.873@72.27.1368.873" timestamp="1592149802370" />
+    <state width="1345" height="172" key="GridCell.Tab.0.center" timestamp="1592149802369">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state width="1345" height="172" key="GridCell.Tab.0.center/72.27.1368.873@72.27.1368.873" timestamp="1592147701773" />
-    <state width="1345" height="172" key="GridCell.Tab.0.left" timestamp="1592147701773">
+    <state width="1345" height="172" key="GridCell.Tab.0.center/72.27.1368.873@72.27.1368.873" timestamp="1592149802369" />
+    <state width="1345" height="172" key="GridCell.Tab.0.left" timestamp="1592149802369">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state width="1345" height="172" key="GridCell.Tab.0.left/72.27.1368.873@72.27.1368.873" timestamp="1592147701773" />
-    <state width="1345" height="172" key="GridCell.Tab.0.right" timestamp="1592147701774">
+    <state width="1345" height="172" key="GridCell.Tab.0.left/72.27.1368.873@72.27.1368.873" timestamp="1592149802369" />
+    <state width="1345" height="172" key="GridCell.Tab.0.right" timestamp="1592149802370">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state width="1345" height="172" key="GridCell.Tab.0.right/72.27.1368.873@72.27.1368.873" timestamp="1592147701774" />
+    <state width="1345" height="172" key="GridCell.Tab.0.right/72.27.1368.873@72.27.1368.873" timestamp="1592149802370" />
     <state x="237" y="103" width="1022" height="737" key="SettingsEditor" timestamp="1592002461892">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
@@ -376,10 +381,10 @@
       <screen x="72" y="27" width="1368" height="873" />
     </state>
     <state x="623" y="378" width="324" height="264" key="VCS.EditChangelistDialog/72.27.1368.873@72.27.1368.873" timestamp="1591978265728" />
-    <state x="351" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592056854505">
+    <state x="351" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592149781056">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
-    <state x="351" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1368.873@72.27.1368.873" timestamp="1592056854505" />
+    <state x="351" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1368.873@72.27.1368.873" timestamp="1592149781056" />
     <state x="527" y="378" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591975674428">
       <screen x="72" y="27" width="1368" height="873" />
     </state>
