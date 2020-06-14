@@ -7,7 +7,8 @@ from operator import itemgetter
 period = 5
 # -- set sorting order. up = most used first, use either "up" or "down"
 order = "up"
-
+# Inicializar variables de Tiempo Lista de Aplicaciones y Lista de ventanas
+t, applist, winlist = 0, [], []
 # Directory where the log will be safe
 home = os.environ["HOME"]
 logdir = home+"/.usagelogs"
@@ -19,8 +20,16 @@ def get(command):
     except subprocess.CalledProcessError:
         pass
 
-# Inicializar variables de Tiempo Lista de Aplicaciones y Lista de ventanas
-t, applist, winlist = 0, [], []
+def time_format(s):
+    # convert time format from seconds to h:m:s
+    m, s = divmod(s, 60); h, m = divmod(m, 60)
+    return "%d:%02d:%02d" % (h, m, s)
+
+def currtime(tformat=None):
+    return time.strftime("%Y_%m_%d_%H_%M_%S") if tformat == "file" \
+        else time.strftime("%Y-%m-%d %H:%M:%S")
+# path to your logfile
+log = logdir+"/"+currtime("file")+".txt"; startt = currtime()
 
 def summarize():
     # Abrir archivo log con manejo de exepciones
@@ -58,7 +67,15 @@ def summarize():
                  +"\n"
             )
             for w in item[3]:
-                wname, time, perc = w[0]
+                wname, time, perc = w[0], w[1], w[2]
+                report.write(
+                    "   "+time_format(time)+" ("+perc+"%) " \
+                    +(6-len(perc))*" "+wname+"\n"
+                )
+        report.write(
+            "\n"+"="*60+"\nStarted: "+startt+"\t"+"updated: " \
+            +currtime()+"\n"+"="*60
+        )
 
 #Recoleccion de datos infinitamente
 while True:
@@ -82,7 +99,7 @@ while True:
     checklist = [item[1] for item in winlist]
     # Si no hay registros en checklist
     # inicializo winlist
-    if not fname in checklist:
+    if not frname in checklist:
         winlist.append([app, frname, 1*period])
     # Si ya existe un registro en la checklist solo se
     # se actualiza la winlist
