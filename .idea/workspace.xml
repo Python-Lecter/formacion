@@ -190,10 +190,10 @@
     <list>
       <item itemvalue="Python.LinuxInfo" />
       <item itemvalue="Python.catch" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.linux" />
       <item itemvalue="Python.currentWindows" />
       <item itemvalue="Python.fileHandling" />
-      <item itemvalue="Python.linux" />
-      <item itemvalue="Python.test" />
     </list>
   </component>
   <component name="SvnConfiguration">
